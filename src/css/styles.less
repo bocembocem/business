@@ -23,6 +23,41 @@ a {
     }
 }
 
+.header {
+    &-outer {
+        background-color: @color_white;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+
+        &-logo {
+            margin: 22px 0;
+        }
+
+        &-links {
+            display: flex;
+            justify-content: space-between;
+
+            &-item {
+                padding: 10px 15px;
+                color: @color_grey;
+                font-family: @font_lato;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: @color_white;
+                    background-color: @color_yellow;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
+
 @font-face {
     font-family: 'Gotham Black';
     font-style: normal;
