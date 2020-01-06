@@ -114,6 +114,7 @@ a {
                 font-family: @font_opensans;
                 font-size: 13px;
                 font-weight: 400;
+                outline: none;
 
                 &::placeholder {
                     color: inherit;
@@ -275,6 +276,11 @@ a {
             font-size: 14px;
             font-weight: 400;
             text-transform: uppercase;
+
+            &:hover {
+                background-color: @color_blue;
+                color: @color_white;
+            }
         }
     }
 }
@@ -293,6 +299,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        color: @color_white;
 
         &-inner {
             height: 88%;
@@ -364,6 +371,7 @@ a {
 .work {
     text-align: center;
     height: 100%;
+    color: @color_white;
 
     &-outer {
         background-color: @color_white;
@@ -415,6 +423,10 @@ a {
             text-transform: uppercase;
             padding: 19px 28px;
             background-color: @color_yellow;
+
+            &:hover {
+                background-color: @color_blue;
+            }
         }
     }
 }
@@ -527,6 +539,10 @@ a {
                 justify-content: center;
                 border: none;
                 cursor: pointer;
+
+                &:hover {
+                    background-color: @color_blue;
+                }
             }
             
             &-input {
@@ -537,6 +553,7 @@ a {
                 font-family: @font_opensans;
                 font-size: 13px;
                 font-weight: 400;
+                outline: none;
 
                 &::placeholder {
                     color: inherit;
@@ -553,7 +570,7 @@ a {
                 font-weight: 400;
                 text-transform: uppercase;
                 border: none;
-                background-color: @color_orange;
+                background-color: inherit;
                 cursor: pointer;
             }
         }
@@ -644,6 +661,10 @@ a {
         font-size: 23px;
         font-weight: 400;
         line-height: 24.15px;
+
+        &:hover {
+            color: @color_yellow;
+        }
 
         img {
             margin-right: 10px;
