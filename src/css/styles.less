@@ -275,6 +275,88 @@ a {
     }
 }
 
+.price {
+    &-outer {
+        background-color: #e7edf3;
+        padding-top: 140px;
+    }
+
+    &-item {
+        margin-top: 50px;
+        margin-bottom: 165px;
+        height: 500px;
+        background-color: @color_white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-inner {
+            height: 88%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-title {
+            margin-top: 55px;
+            color: #818b95;
+            font-family: @font_lato;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+
+        &-number {
+            color: @color_yellow;
+            font-family: @font_lato;
+            font-size: 60px;
+            font-weight: 700;            
+            line-height: 1;
+            text-transform: uppercase;
+            margin-top: 30px;
+
+            sup {
+                font-size: 35px;
+            }
+        }
+
+        &-subtitle {
+            color: #818b95;
+            font-family: @font_lato;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 22px;
+            font-variant: small-caps;
+            margin-bottom: 35px;
+        }
+
+        &-condition {
+            border-top: 1px solid #e2e9f0;
+            color: #b5bbc1;
+            font-family: @font_lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 40px;
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+        }
+
+        &-button {
+            margin-top: 30px;
+            padding: 16px 21px;
+            background-color: @color_yellow;
+            color: @color_white;
+            font-family: @font_lato;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+}
+
 @font-face {
     font-family: 'Gotham Black';
     font-style: normal;
