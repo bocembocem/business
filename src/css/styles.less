@@ -560,6 +560,51 @@ a {
     }
 }
 
+.map {
+    &-outer {
+        background-color: @color_white;
+    }
+
+    &-image {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-text {
+            position: absolute;
+            margin-top: -110px;
+            text-align: center;
+
+            &-title {
+                color: @color_white;
+                font-family: @font_lato;
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            &-subtitle {
+                color: #aeb7ba;
+                font-family: @font_opensans;
+                font-size: 13px;
+                line-height: 24px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+
+            &-mail {
+                font-size: 13px;
+                font-weight: 400;
+                color: @color_yellow;
+                font-family: @font_opensans;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
 @font-face {
     font-family: 'Gotham Black';
     font-style: normal;
