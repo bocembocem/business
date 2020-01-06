@@ -51,9 +51,123 @@ a {
                 &:hover {
                     color: @color_white;
                     background-color: @color_yellow;
-                    border-radius: 2px;
+                    border-radius: 3px;
                 }
             }
+        }
+    }
+}
+
+.banner {
+    &-outer {
+        background-color: @color_blue;
+        padding-top: 110px;
+    }
+
+    &-caption {
+        &-title {
+            text-align: center;
+            font-family: @font_gotham_400;
+            font-size: 35px;
+            letter-spacing: -0.88px;
+            color: @color_white;
+            text-transform: uppercase;
+        }
+
+        &-subtitle {
+            text-align: center;
+            color: #ffffff;
+            font-family: @font_opensans;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+
+    &-form {
+        &-inner {
+            margin-top: 35px;
+            padding-bottom: 350px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        &-item {
+            display: flex;
+            align-items: center;
+            background-color: @color_white;
+            border-radius: 3px;
+            margin: 0 5px;
+            padding: 15px;
+            
+            &-input {
+                border: none;
+                margin-left: 15px;
+                padding: 5px;
+                color: #a9a9a9;
+                font-family: @font_opensans;
+                font-size: 13px;
+                font-weight: 400;
+
+                &::placeholder {
+                    color: inherit;
+                    font-family: inherit;
+                    font-size: inherit;
+                    font-weight: inherit;    
+                }
+            }
+
+            &-submit {
+                color: @color_white;
+                font-family: @font_opensans;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                border: none;
+                background-color: @color_yellow;
+            }
+
+            &:last-child {
+                background-color: @color_yellow;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.banner2 {
+    &-outer {
+        background-color: @color_white;
+    }
+
+    &-carousel {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 70px;
+        
+        &-mac {
+            position: absolute;
+            top: -290px;
+        }
+
+        &-slide {
+            position: absolute;
+            top: -272px;
+        }
+    }
+
+    &-controls {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 105px;
+        
+        &-button {
+            width: 11px;
+            height: 11px;
+            margin: 5px;
+            border: 2px solid #dedfe0;
+            border-radius: 50%;
+            cursor: pointer;
         }
     }
 }
