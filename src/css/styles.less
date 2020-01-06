@@ -3,7 +3,6 @@
 @font_opensans: 'Open Sans', sans-serif;
 @font_lato: 'Lato', sans-serif;
 @font_gotham_400: 'Gotham Black', sans-serif;
-@font_brandon_700: 'Brandon Grotesque Bold', sans-serif;
 
 @color_white: #ffffff;
 @color_grey: #868686;
@@ -415,16 +414,87 @@ a {
     }
 }
 
+.clients {
+    &-outer {
+        background-color: @color_orange;
+    }
+
+    &-caption {        
+        &-title {
+            text-align: center;
+            font-family: @font_gotham_400;
+            font-size: 30px;
+            letter-spacing: -0.88px;
+            color: @color_white;
+            text-transform: uppercase;
+            margin-top: 140px;
+        }
+
+        &-subtitle {
+            text-align: center;
+            color: @color_white;
+            font-family: @font_opensans;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+
+    &-block {
+        margin-top: 60px;
+
+        &:last-child {
+            margin-bottom: 160px;
+        }
+        
+        
+        &-inner {
+            background-color: @color_white;
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        &-text {
+            margin-left: 30px;
+
+            &-comment {
+                color: @color_grey2;
+                font-family: @font_opensans;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            &-autor {
+                display: flex;
+                margin-top: 30px;
+
+                &-name {
+                    font-family: @font_lato;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-transform: uppercase;
+                    color: #f6772c;
+                }
+
+                &-position {                    
+                    margin-left: 2px;
+                    color: #99a9ae;
+                    font-family: @font_lato;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
 @font-face {
     font-family: 'Gotham Black';
     font-style: normal;
     font-weight: normal;
     src: local('Gotham Black'), url('../fonts/GothamBlackRegular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Brandon Grotesque Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Brandon Grotesque Bold'), url('../fonts/Brandon_bld.woff') format('woff');
 }
