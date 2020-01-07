@@ -13,10 +13,15 @@
     <header class="header header-outer">
         <div class="container header-inner">
             <nav class="row header-menu">
-                <a href="#" class="col-3 header-menu-logo" rel="logo">
+                <a href="#" class="col-auto col-md-2 col-xl-3 header-menu-logo" rel="logo">
                     <img src="img/logo.png" alt="logo">
                 </a>
-                <div class="col-9 header-menu-links">
+                <div class="col-auto header-menu-mini">
+                    <div class="header-menu-mini-line"></div>
+                    <div class="header-menu-mini-line"></div>
+                    <div class="header-menu-mini-line"></div>
+                </div>
+                <div class="col-12 col-md-10 col-xl-9 header-menu-links">
                     <a href="#" class="header-menu-links-item" rel="home">Home</a>
                     <a href="#" class="header-menu-links-item" rel="service">Service</a>
                     <a href="#" class="header-menu-links-item" rel="about">About us</a>
@@ -24,7 +29,7 @@
                     <a href="#" class="header-menu-links-item" rel="work">How it work</a>
                     <a href="#" class="header-menu-links-item" rel="clients">Happy Clients</a>
                     <a href="#" class="header-menu-links-item" rel="contact">Contact Us</a>
-                </div>
+                </div>                
             </nav>
         </div>
     </header>
@@ -41,15 +46,15 @@
             <form action="" class="row banner-form">
                 <div class="col-12 banner-form-inner">
                     <div class="banner-form-item">
-                        <img src="./img/input_name.png" alt="name">
+                        <img class="banner-form-item-img" src="./img/input_name.png" alt="name">
                         <input type="text" class="banner-form-item-input" placeholder="Full Name">
                     </div>
                     <div class="banner-form-item">
-                        <img src="./img/input_email.png" alt="email">
+                        <img class="banner-form-item-img" src="./img/input_email.png" alt="email">
                         <input type="text" class="banner-form-item-input" placeholder="Email Adress">
                     </div>
                     <div class="banner-form-item">
-                        <img src="./img/input_phone.png" alt="phone">
+                        <img class="banner-form-item-img" src="./img/input_phone.png" alt="phone">
                         <input type="text" class="banner-form-item-input" placeholder="Phone Number">
                     </div>
                     <div class="banner-form-item">
@@ -64,14 +69,16 @@
             <div class="row">
                 <div class="col-12 banner2-carousel">
                     <div class="banner2-carousel-mac">
-                        <img src="./img/mac.png" alt="mac" class="img-fluid">
+                        <img src="./img/mac.png" alt="mac" class="img-fluid banner2-carousel-mac-img">
                     </div>
                     <div class="banner2-carousel-slide">
-                        <img src="./img/wallpaper.png" alt="slide" class="img-fluid">
+                        <img src="./img/wallpaper.png" alt="slide" class="img-fluid banner2-carousel-slide-img">
+                        <img src="./img/wallpaper.png" alt="slide" class="img-fluid banner2-carousel-slide-img">
+                        <img src="./img/wallpaper.png" alt="slide" class="img-fluid banner2-carousel-slide-img">
                     </div>
                 </div>
                 <div class="col-12 banner2-controls">
-                    <div class="banner2-controls-button"></div>
+                    <div class="banner2-controls-button banner2-controls-button-active"></div>
                     <div class="banner2-controls-button"></div>
                     <div class="banner2-controls-button"></div>
                 </div>
@@ -85,58 +92,70 @@
                     <div class="caption-title">Our Services</div>
                     <div class="caption-subtitle">Lorem Ipsum is simply dummy Business industry.</div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service1.png" alt="font-awesome" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service1.png" alt="font-awesome">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Font-Awesome Icons</div>
-                        <div class="service-block-text-subtitle">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
-                        </div>
+                    <div class="service-block-text-title">Font-Awesome Icons</div>
+                    <div class="service-block-text-subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                    </div>
                     </div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service2.png" alt="responsive" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service2.png" alt="responsive">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Fully Responsive Design</div>
-                        <div class="service-block-text-subtitle">
-                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy                        
-                        </div>
+                    <div class="service-block-text-title">Fully Responsive Design</div>
+                    <div class="service-block-text-subtitle">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy                        
+                    </div>
                     </div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service3.png" alt="contact-form" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service3.png" alt="contact-form">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Working Contact form</div>
-                        <div class="service-block-text-subtitle">
-                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un cover many web sites still in their infancy                        
-                        </div>
+                    <div class="service-block-text-title">Working Contact form</div>
+                    <div class="service-block-text-subtitle">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un cover many web sites still in their infancy                        
+                    </div>
                     </div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service4.png" alt="retina" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service4.png" alt="retina">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Retina Ready icons here</div>
-                        <div class="service-block-text-subtitle">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                        </div>
+                    <div class="service-block-text-title">Retina Ready icons here</div>
+                    <div class="service-block-text-subtitle">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                    </div>
                     </div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service5.png" alt="code" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service5.png" alt="code">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Friendly Code</div>
-                        <div class="service-block-text-subtitle">
-                            Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
-                        </div>
+                    <div class="service-block-text-title">Friendly Code</div>
+                    <div class="service-block-text-subtitle">
+                        Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </div>
                     </div>
                 </div>
-                <div class="col-6 service-block">
-                    <img src="./img/service6.png" alt="landing" class="service-block-image">
+                <div class="col-12 col-md-6 service-block">
+                    <div class="service-block-image">
+                        <img src="./img/service6.png" alt="landing">
+                    </div>
                     <div class="service-block-text">
-                        <div class="service-block-text-title">Flat trendy landing page Design</div>
-                        <div class="service-block-text-subtitle">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
-                        </div>
+                    <div class="service-block-text-title">Flat trendy landing page Design</div>
+                    <div class="service-block-text-subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                    </div>
                     </div>
                 </div>
             </div>
@@ -145,10 +164,8 @@
     <section class="about about-outer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 about-image p-0">
-                    <img class="img-fluid" src="./img/about.png" alt="about">
-                </div>
-                <div class="col-6 about-text p-0">
+                <div class="d-none d-sm-block col-sm-5 col-xl-6 about-image p-0"></div>
+                <div class="col-12 col-sm-7 col-xl-6 about-text p-0">
                     <div class="about-text-title">ABout us</div>
                     <div class="about-text-subtitle">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
@@ -165,8 +182,9 @@
                 <div class="col-12 caption-subtitle">Lorem Ipsum is simply dummy text of the printing typesetting .</div>
             </div>
             <div class="row">
-                <div class="col-4 price-item">
-                    <div class="price-item-inner">
+                <div class="col-12 col-sm-4 price-item">
+                    <div class="price-item-layer"></div>
+                    <div class="price-item-inner">                        
                         <div class="price-item-title">Basic plan</div>
                         <div class="price-item-number"><sup>$</sup>22</div>
                         <div class="price-item-subtitle">per month</div>
@@ -176,7 +194,8 @@
                         <a href="#" class="price-item-button" rel="buy">Get Started</a>
                     </div>
                 </div>
-                <div class="col-4 price-item">
+                <div class="col-12 col-sm-4 price-item">
+                    <div class="price-item-layer"></div>
                     <div class="price-item-inner">
                         <div class="price-item-title">Premium plan</div>
                         <div class="price-item-number"><sup>$</sup>42</div>
@@ -187,7 +206,8 @@
                         <a href="#" class="price-item-button" rel="buy">Get Started</a>
                     </div>
                 </div>
-                <div class="col-4 price-item">
+                <div class="col-12 col-sm-4 price-item">
+                    <div class="price-item-layer"></div>
                     <div class="price-item-inner">
                         <div class="price-item-title">Gold plan</div>
                         <div class="price-item-number"><sup>$</sup>62</div>
@@ -208,7 +228,7 @@
                 <div class="col-12 caption-subtitle">Lorem Ipsum is simply dummy Business industry</div>
             </div>
             <div class="row">
-                <div class="col-3 work-step">
+                <div class="col-12 col-sm-6 col-md-3 work-step">
                     <img src="./img/arrow.png" alt="arrow" class="work-step-arrow">
                     <img src="./img/step1.png" alt="step">
                     <div class="work-step-title">step 1</div>
@@ -216,7 +236,7 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     </div>
                 </div>
-                <div class="col-3 work-step">
+                <div class="col-12 col-sm-6 col-md-3 work-step">
                     <img src="./img/arrow.png" alt="arrow" class="work-step-arrow">
                     <img src="./img/step2.png" alt="step">
                     <div class="work-step-title">step 2</div>
@@ -224,7 +244,7 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     </div>
                 </div>
-                <div class="col-3 work-step">
+                <div class="col-12 col-sm-6 col-md-3 work-step">
                     <img src="./img/arrow.png" alt="arrow" class="work-step-arrow">
                     <img src="./img/step3.png" alt="step">
                     <div class="work-step-title">step 3</div>
@@ -232,7 +252,7 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     </div>
                 </div>
-                <div class="col-3 work-step">
+                <div class="col-12 col-sm-6 col-md-3 work-step">
                     <img src="./img/step4.png" alt="step">
                     <div class="work-step-title">step 4</div>
                     <div class="work-step-subtitle">
@@ -253,7 +273,7 @@
                 <div class="col-12 clients-caption-subtitle">We are explain who is using our business solutions</div>
             </div>
             <div class="row">
-                <div class="col-6 clients-block">
+                <div class="col-12 col-md-6 clients-block">
                     <div class="clients-block-inner">
                         <img src="./img/client1.png" alt="client">
                         <div class="clients-block-text">                        
@@ -267,7 +287,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 clients-block">
+                <div class="col-12 col-md-6 clients-block">
                     <div class="clients-block-inner">
                         <img src="./img/client2.png" alt="client">
                         <div class="clients-block-text">                        
@@ -281,7 +301,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 clients-block">
+                <div class="col-12 col-md-6 clients-block">
                     <div class="clients-block-inner">
                         <img src="./img/client3.png" alt="client">
                         <div class="clients-block-text">                        
@@ -295,7 +315,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 clients-block">
+                <div class="col-12 col-md-6 clients-block">
                     <div class="clients-block-inner">
                         <img src="./img/client4.png" alt="client">
                         <div class="clients-block-text">                        
@@ -339,7 +359,10 @@
         <div class="container map-inner">
             <div class="row">
                 <div class="col-12 map-image">
-                    <img class="img-fluid" src="./img/map.png" alt="map">
+                    <img class="img-fluid map-image-bg" src="./img/map.png" alt="map">
+                    <div class="map-image-dot">
+                        <img class="img-fluid" src="./img/dot.png" alt="point">
+                    </div>                    
                     <div class="map-image-text">
                         <div class="map-image-text-title">Address</div>
                         <div class="map-image-text-subtitle">
@@ -357,7 +380,7 @@
     <footer class="footer footer-outer">
         <div class="container footer-inner">
             <div class="row">
-                <nav class="col-12 footer-menu">
+                <nav class="col-sm-12 footer-menu">
                     <a href="#" class="footer-menu-link" rel="home">Home</a>
                     <a href="#" class="footer-menu-link" rel="service">Service</a>
                     <a href="#" class="footer-menu-link" rel="about">About us</a>
@@ -366,10 +389,10 @@
                     <a href="#" class="footer-menu-link" rel="clients">Happy Clients</a>
                     <a href="#" class="footer-menu-link" rel="contact">Contact Us</a>
                 </nav>
-                <div class="col-12 footer-phone">
+                <a href="tel:+98799769993" class="col-12 footer-phone" rel="phone">
                     <img src="./img/input_phone.png" alt="phone">
                     +987 9976 999
-                </div>
+                </a>
                 <div class="col-12 footer-social">
                     <a href="#" class="footer-social-link" rel="twitter"><img src="./img/icon_twitter.png" alt="twitter"></a>
                     <a href="#" class="footer-social-link" rel="facebook"><img src="./img/icon_fb.png" alt="facebook"></a>
